@@ -1,0 +1,84 @@
+body {
+    /* Add padding to the body */
+    padding: 50px;
+}
+
+.grid-container {
+    /* Set the size, border, and grid layout for the container */
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+
+.grid-item-1 {
+    /* Styles for the first grid item */
+    place-items: center;
+    height: 170px;
+    width: 769px;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #ff9999;
+    grid-column: 1 / 3;
+}
+
+.grid-item-2 {
+    /* Styles for the second grid item */
+    align-content: center;
+    justify-content: center;
+    background-color: #ffff6f;
+    height: 300px;
+    width: 554px;
+    border: 2px solid black;
+}
+
+.grid-item-3 {
+    /* Styles for the third grid item */
+    height: 300px;
+    width: 212px;
+    border: 2px solid black;
+    border-left: 2px solid black;
+    background-color: #ececfb;
+}
+
+#image1 {
+    /* Styles for the first image */
+    height: 290px;
+    width: 530px;
+    padding: 5px 13px;
+}
+
+#image2 {
+    /* Styles for the second image */
+    height: 140px;
+    margin: 10px 45px 0;
+}
+
+#p1 {
+    /* Styles for the first paragraph */
+    font-size: xx-large;
+    margin: 10px 100px;
+}
+
+#p2 {
+    /* Styles for the second paragraph */
+    font-size: 21px;
+    margin: 30px 60px;
+}
+
+#p3 {
+    /* Styles for the third paragraph */
+    font-size: 27px;
+    text-align: center;
+    margin: 0;
+}
+
+#p4 {
+    /* Styles for the fourth paragraph */
+    margin: 15px 20px;
+    text-align: center;
+    font-size: large;
+}
